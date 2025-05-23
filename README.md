@@ -1,6 +1,6 @@
-# Multimodal RAG with Pinecone and OpenAI Vision
+# Multimodal RAG with Gemini 1.5 Flash and Pinecone
 
-A powerful Retrieval-Augmented Generation (RAG) system that combines text and visual understanding using OpenAI's GPT-4 Vision and Pinecone vector database.
+A powerful Retrieval-Augmented Generation (RAG) system that combines text and visual understanding using Google's Gemini 1.5 Flash model and Pinecone vector database. This implementation provides advanced multimodal capabilities for processing and querying documents with both text and images.
 
 ## Features
 
@@ -111,12 +111,22 @@ You can customize various parameters in `src/config.py`:
 - **API Errors**: Verify your API keys are correctly set in the `.env` file
 - **Memory Issues**: For large documents, you may need to adjust chunk sizes
 
-## License
+## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
-- OpenAI for their powerful language and vision models
-- Pinecone for the vector database
-- The open-source community for various Python libraries used in this project
+- [Google Gemini](https://ai.google.dev/) for their powerful multimodal models
+- [Pinecone](https://www.pinecone.io/) for the vector database
+- The open-source community for their invaluable contributions
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
