@@ -115,12 +115,6 @@ You can customize various parameters in `src/config.py`:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- [Google Gemini](https://ai.google.dev/) for their powerful multimodal models
-- [Pinecone](https://www.pinecone.io/) for the vector database
-- The open-source community for their invaluable contributions
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
