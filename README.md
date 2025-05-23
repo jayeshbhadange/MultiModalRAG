@@ -13,7 +13,7 @@ A powerful Retrieval-Augmented Generation (RAG) system that combines text and vi
 ## Prerequisites
 
 - Python 3.8+
-- OpenAI API key with access to GPT-4 Vision
+- Gemini API key with access to GPT-4 Vision
 - Pinecone API key
 - Poppler (for PDF processing)
 
@@ -37,7 +37,7 @@ A powerful Retrieval-Augmented Generation (RAG) system that combines text and vi
 
 4. Create a `.env` file in the project root with your API keys:
    ```
-   OPENAI_API_KEY=your_openai_api_key
+   GEMINI_API_KEY=your_openai_api_key
    PINECONE_API_KEY=your_pinecone_api_key
    ```
 
